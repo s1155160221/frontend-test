@@ -1,4 +1,4 @@
-const BASE_URL = "http://app-cy-dev-ea-001.azurewebsites.net/chat";
+const BASE_URL = "https://app-cy-dev-ea-001.azurewebsites.net/chat";
 
 const chatHistoryEl = document.getElementById("chat-history");
 const chatInputEl = document.getElementById("chat-input");
