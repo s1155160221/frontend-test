@@ -1,0 +1,9 @@
+import os
+
+# Azure OpenAI
+AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT", "")
+AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY", "")
+
+# Azure AI Search
+AZURE_AISEARCH_ENDPOINT = os.getenv("AZURE_AISEARCH_ENDPOINT", "")
+AZURE_AISEARCH_KEY = os.getenv("AZURE_AISEARCH_KEY", "")

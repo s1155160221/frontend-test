@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatbot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Lightweight markdown renderer for assistant messages -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  </head>
+  <body>
+  <div class="app">
+    <header class="app-header">
+      <div class="title-group">
+        <h1>Chatbot</h1>
+        <p class="subtitle">Ask me anything.</p>
+      </div>
+      <button id="clear-history-btn" class="ghost-button" type="button">
+        Clear history
+      </button>
+    </header>
+
+    <main class="chat-container">
+      <div id="chat-history" class="chat-history">
+        <!-- messages will appear here -->
+      </div>
+    </main>
+
+    <footer class="input-area">
+      <textarea
+        id="chat-input"
+        class="chat-input"
+        rows="2"
+        placeholder="Type your question and press Enter to send. Shift+Enter for newline."
+      ></textarea>
+      <button id="send-btn" class="primary-button" type="button">
+        Send
+      </button>
+    </footer>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
